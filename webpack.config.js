@@ -1,8 +1,12 @@
-const ESLintPlugin = require('eslint-webpack-plugin');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-// allows us to view html via webpack
 const env = process.env.NODE_ENV || 'development';
 // Set to 'production' or 'development' in env based on what you are doing. We are developing
+
+const ESLintPlugin = require('eslint-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+// loaders for webpack
+
+const finalCSSLoader = (env === 'production') ? MiniCssExtractPlugin.loader : { loader: 'style-loader' };
 
 module.exports = {
   mode: env,
@@ -18,9 +22,30 @@ module.exports = {
           { loader: 'babel-loader' },
         ],
       },
+      {
+        test: /\.s?css/,
+        use: [
+          finalCSSLoader,
+          {
+            loader: 'css-loader',
+            options: {
+              sourceMap: true,
+            },
+          },
+          {
+            loader: 'sass-loader',
+            options: {
+              sourceMap: true,
+            },
+          },
+        ],
+      },
     ],
   },
   plugins: [
+    new MiniCssExtractPlugin({
+      filename: '[name].css',
+    }),
     // Tells webpack we want it to know that we have a src/index.html file and want it to be availale as index.html -- hmm interesting
     new HtmlWebpackPlugin({
       template: './src/index.html',
@@ -29,6 +54,9 @@ module.exports = {
     // ESLint with webpack
     new ESLintPlugin({}),
   ],
+  devServer: {
+    hot: true,
+  },
 };
 
 // All this says is that we want to look in src for js files and eexclude the node_modile js files.

@@ -1,6 +1,12 @@
 {
     "extends": "airbnb",
     "parser": "@babel/eslint-parser",
+    "parserOptions": {
+        "requireConfigFile": false
+    },
+    "babelOptions": {
+        "configFile": "./.babelrc"
+    },
     "env": {
         "browser": true,
         "es6": true
@@ -23,6 +29,7 @@
           0,
           "DebuggerStatement"
         ],
-        "no-debugger": "warn"
+        "no-debugger": "warn",
+        "linebreak-style": 0
     }
 }
