@@ -1,30 +1,34 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin'); //allows us to view html via webpack
+const ESLintPlugin = require('eslint-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+// allows us to view html via webpack
 const env = process.env.NODE_ENV || 'development';
 // Set to 'production' or 'development' in env based on what you are doing. We are developing
 
 module.exports = {
-    mode: env,
-    entry: ['./src'], // where our app lives!
-    devtool: 'source-map', // enables debugging with source in chrome devtools (wait so this does use a browser? i confused)
-    module: {
-        rules: [
-            {
-                // Kinda reminds me of firebase and firestore ngl
-                test:/\.js$/,
-                exclude: /node_modules/,
-                use: [ // Configuring babel for the particulars of what feature set of js we want. Allows us to run latest js features while generating js compatabile with older broswers
-                    { loader: 'babel-loader'}
-                ]
-            },
+  mode: env,
+  entry: ['./src'], // where our app lives!
+  devtool: 'source-map', // enables debugging with source in chrome devtools (wait so this does use a browser? i confused)
+  module: {
+    rules: [
+      {
+        // Kinda reminds me of firebase and firestore ngl
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: [ // Configuring babel for the particulars of what feature set of js we want. Allows us to run latest js features while generating js compatabile with older broswers
+          { loader: 'babel-loader' },
         ],
-    },
-    plugins:[
-        // Tells webpack we want it to know that we have a src/index.html file and want it to be availale as index.html -- hmm interesting
-        new HtmlWebpackPlugin({
-            template: './src/index.html',
-            filename: './index.html',
-        })
+      },
     ],
+  },
+  plugins: [
+    // Tells webpack we want it to know that we have a src/index.html file and want it to be availale as index.html -- hmm interesting
+    new HtmlWebpackPlugin({
+      template: './src/index.html',
+      filename: './index.html',
+    }),
+    // ESLint with webpack
+    new ESLintPlugin({}),
+  ],
 };
 
 // All this says is that we want to look in src for js files and eexclude the node_modile js files.
