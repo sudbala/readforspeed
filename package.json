@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/dartmouth-cs52-21S/starterpack-sudbala/issues"
   },
-  "homepage": "https://github.com/dartmouth-cs52-21S/starterpack-sudbala#readme"
+  "homepage": "https://github.com/dartmouth-cs52-21S/starterpack-sudbala#readme",
+  "devDependencies": {
+    "webpack": "^5.33.2",
+    "webpack-dev-server": "^3.11.2"
+  }
 }
