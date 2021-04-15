@@ -4,6 +4,8 @@ const env = process.env.NODE_ENV || 'development';
 const ESLintPlugin = require('eslint-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const autoprefixer = require('autoprefixer');
+const postcssPresets = require('postcss-preset-env');
 // loaders for webpack
 
 const finalCSSLoader = (env === 'production') ? MiniCssExtractPlugin.loader : { loader: 'style-loader' };
@@ -32,10 +34,36 @@ module.exports = {
               sourceMap: true,
             },
           },
+          /* !! merge in between css-loader and sass-loader objects !! */
+          {
+            loader: 'postcss-loader',
+            ident: 'postcss',
+            options: {
+              sourceMap: true,
+              postcssOptions: {
+                plugins: [
+                  autoprefixer(),
+                  postcssPresets({ browsers: 'last 2 versions' }),
+                ],
+              },
+            },
+          },
           {
             loader: 'sass-loader',
             options: {
               sourceMap: true,
+            },
+          },
+        ],
+      },
+      {
+        test: /\.(jpe?g|png|gif|svg)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              useRelativePath: true,
+              name: '[name].[ext]',
             },
           },
         ],
