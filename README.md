@@ -12,13 +12,13 @@ I found it incredibly annoying to deal with some of the eslint errors. Specifica
 
 ## Extra Credit
 Okay, extra credit was kinda cool. Here we go. SO I focused on compressing and optimizing images in webpack. After having done some research, I found out that images take up more than half of the size of an average webpage, which is a fair amount of traffic. I first started with url-loader to embed small PNG, JPG, and GIF images into the bundle. It apparently conversts a file into a Base64 URL and then inserts that url into the bundle, which helps avoid extra image requests. This did well, but I was using an SVG. Next, I used svg-url-loader to embed small SVG images. And this was doing the exact same thing but it encodes files using the URL endcoding isntead of Base64 (URL smaller because svg is text). Also worked well. Finally, I optimized image size with image-webpack-laoder to make images smaller, which apparently compresses png, jpg, gif, svg, and more filetypes by passing them through optimizers. It pipes images through itself, so it needs to follow url/svg-url-loader so that it is put into the webpack bundle. Here are some screenshots illustrating the resulting decrease in image size:
-![image info](./src/img/ss1.jpg)
-![image info](./src/img/ss2.jpg)
-![image info](./src/img/ss3.jpg)
+![image info](./src/img/ss1.JPG)
+![image info](./src/img/ss2.JPG)
+![image info](./src/img/ss3.JPG)
 
 ## Screenshots
 Here we have a screenshot of the website!
-![image info](./src/img/ss4.jpg)
+![image info](./src/img/ss4.JPG)
 
 ## References
 For extra credit:
