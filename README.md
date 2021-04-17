@@ -23,6 +23,6 @@ Here we have a screenshot of the website!
 
 ## References
 For extra credit:
-https://iamakulov.com/notes/optimize-images-webpack/
-https://webpack.js.org/loaders/
+* https://iamakulov.com/notes/optimize-images-webpack/
+* https://webpack.js.org/loaders/
 
