@@ -16,30 +16,30 @@ module.exports = {
   devtool: 'source-map', // enables debugging with source in chrome devtools (wait so this does use a browser? i confused)
   module: {
     rules: [
-      {
-        test: /\.svg/,
-        use: {
-          loader: 'svg-url-loader',
-          options: {
-            // Images larger than 10 KB won’t be inlined
-            limit: 10 * 1024,
-            // Remove quotes around the encoded URL –
-            // they’re rarely useful
-            noquotes: true,
-          },
-        },
-      },
-      {
-        test: /\.(png|jpg|gif)$/i,
-        use: [
-          {
-            loader: 'url-loader',
-            options: {
-              limit: 8192,
-            },
-          },
-        ],
-      },
+      // {
+      //   test: /\.svg/,
+      //   use: {
+      //     loader: 'svg-url-loader',
+      //     options: {
+      //       // Images larger than 10 KB won’t be inlined
+      //       limit: 10 * 1024,
+      //       // Remove quotes around the encoded URL –
+      //       // they’re rarely useful
+      //       noquotes: true,
+      //     },
+      //   },
+      // },
+      // {
+      //   test: /\.(png|jpg|gif)$/i,
+      //   use: [
+      //     {
+      //       loader: 'url-loader',
+      //       options: {
+      //         limit: 8192,
+      //       },
+      //     },
+      //   ],
+      // },
       {
         // Kinda reminds me of firebase and firestore ngl
         test: /\.js$/,
@@ -92,19 +92,19 @@ module.exports = {
           },
         ],
       },
-      {
-        test: /\.(gif|png|jpe?g|svg)$/i,
-        use: [
-          'file-loader',
-          {
-            loader: 'image-webpack-loader',
-            options: {
-              bypassOnDebug: true, // webpack@1.x
-              disable: true, // webpack@2.x and newer
-            },
-          },
-        ],
-      },
+      // {
+      //   test: /\.(gif|png|jpe?g|svg)$/i,
+      //   use: [
+      //     'file-loader',
+      //     {
+      //       loader: 'image-webpack-loader',
+      //       options: {
+      //         bypassOnDebug: true, // webpack@1.x
+      //         disable: true, // webpack@2.x and newer
+      //       },
+      //     },
+      //   ],
+      // },
     ],
   },
   plugins: [
