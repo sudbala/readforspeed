@@ -7,7 +7,7 @@
     "start": "SET NODE_ENV=development& webpack serve",
     "build": "npm run clean; SET NODE_ENV=production& webpack --color",
     "clean": "rimraf dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint src"
   },
   "repository": {
     "type": "git",
