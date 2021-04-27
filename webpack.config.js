@@ -12,6 +12,7 @@ const finalCSSLoader = (env === 'production') ? MiniCssExtractPlugin.loader : { 
 
 module.exports = {
   mode: env,
+  output: { publicPath: '/' },
   entry: ['./src'], // where our app lives!
   devtool: 'source-map', // enables debugging with source in chrome devtools (wait so this does use a browser? i confused)
   module: {
@@ -121,6 +122,7 @@ module.exports = {
   ],
   devServer: {
     hot: true,
+    historyApiFallback: true,
   },
 };
 
