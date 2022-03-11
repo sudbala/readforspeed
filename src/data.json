@@ -1,0 +1,21 @@
+{
+    "data": [
+      {
+        "Reading": "Gregory And Bowker",
+        "Predicted Difficulty (1-5)": "4",
+        "Actual Difficulty (1-5)": "4",
+        "Reading Time (mins)": "20.5",
+        "Word Count": "6368",
+        "Reading Speed": "310.6",
+        "Comprehension (1-5)": "2",
+        "Photos": [
+            "https://i.imgur.com/a4lo5wd.jpg",
+            "https://i.imgur.com/XVitB7m.jpg",
+            "https://i.imgur.com/bKPWE5b.png",
+            "https://i.imgur.com/TOILCuf.png",
+            "https://i.imgur.com/ntnVmwL.png",
+            "https://i.imgur.com/o6FiW5d.jpg"
+        ]
+      }
+    ]
+  }
