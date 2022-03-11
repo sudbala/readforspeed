@@ -1,20 +1,31 @@
+/* eslint-disable react/no-array-index-key */
 import React, { Component } from 'react';
+import DataTile from './dataTile';
+import Data from '../data.json';
 
 class WebApp extends Component {
-    renderText = () => {
-      return (
-        <div className="paragraph">
-          <p>
-            Webapp Page
-          </p>
-        </div>
-      );
+    renderTiles = () => {
+      return Data.data.map((item, i) => {
+        return (
+          <DataTile key={i}
+            title={item.Reading}
+            preddiff={item['Predicted Difficulty (1-5)']}
+            actdiff={item['Actual Difficulty (1-5)']}
+            time={item['Reading Time (mins)']}
+            wordcount={item['Word Count']}
+            speed={item['Reading Speed']}
+            comprehension={item['Comprehension (1-5)']}
+            photos={item.Photos}
+          />
+        );
+      });
     }
 
     render() {
+      console.log('we got here first');
       return (
-        <div className="homePage">
-          {this.renderText()}
+        <div className="webAppPage">
+          {this.renderTiles()}
         </div>
       );
     }
