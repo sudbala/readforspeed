@@ -1,27 +1,97 @@
 body, html {
-    font-family: "Roboto", sans-serif;
-    background: linear-gradient(to bottom, #fff250 0%,  #dd2c83 40%, #992181 100%);
+    font-family: "Roboto Mono", monospace;
+    // background: linear-gradient(to bottom, #fff250 0%,  #dd2c83 40%, #992181 100%);
+    background: #FAFAFA;
     height: 100%;
+}
+
+.appContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.switchContainer {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.header {
+    padding: 1em;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
-    text-align: center;
+    margin-top: 0;
+}
+
+.paragraph {
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.themedButton {
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.primaryButton {
+    color: white;
+    background-color: #00205a;
+    transition: 0.3s;
+}
+
+.primaryButton:hover {
+    background-color: #1f4386;;
+}
+
+.primaryButton:active {
+    background-color: #00205a;
+}
+
+.secondaryButton {
+    color: black;
+    background-color: lightgrey;
+    transition: 0.3s;
+}
+
+.secondaryButton:hover {
+    background-color: var(--primaryColor);
     color: white;
 }
 
-.logo {
-    background-image: url('img/cup.svg');
-    filter: brightness(0) invert(1);
-    width: 100px;
-    height: 100px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.secondaryButton:active {
+    background-color: lightgrey;
 }
 
+#logoutButton {
+    margin: 0em;
+}
+
+.disabledButton {
+    background-color: grey;
+    color: #F9F1F7;
+    cursor: not-allowed;
+}
+
+.disabledNavlink {
+    background-color: grey;
+    color: #F9F1F7;
+    cursor: not-allowed;
+}
 .active {
     color: pink;
 }
