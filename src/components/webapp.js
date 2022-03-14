@@ -16,6 +16,8 @@ class WebApp extends Component {
             speed={item['Reading Speed']}
             comprehension={item['Comprehension (1-5)']}
             photos={item.Photos}
+            _week={item._week}
+            average={item.average}
           />
         );
       });
