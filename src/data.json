@@ -30,7 +30,8 @@
                 "https://i.imgur.com/u0gqbTp.png",
                 "https://i.imgur.com/sYNr9A6.png"                
             ],
-            "_week": 1
+            "_week": 1,
+            "average": "https://i.imgur.com/QPZj63a.png"
         },
         {
             "Reading": "Datafication, dataism, and dataveillance - Jose van Dijck",
@@ -47,7 +48,8 @@
                 "https://i.imgur.com/xUssOiK.png",
                 "https://i.imgur.com/Sj6ufsg.png"
             ],
-            "_week": 2
+            "_week": 2,
+            "average": "https://i.imgur.com/pfNmq2Q.png"
         },
         {
             "Reading": "Our Data, Our Selves (Chapter 9 & 13) - Adam Tanner",
@@ -65,10 +67,11 @@
                 "https://i.imgur.com/ETkZDb4.png"
 
             ],
-            "_week": 2
+            "_week": 2,
+            "average": "https://i.imgur.com/eJHIkNO.png"
         },
         {
-            "Reading": "Our Metrics, Ourselves",
+            "Reading": "Our Metrics, Ourselves - K. Crawford, Jessa Lingel and Tero Karppi",
             "Predicted Difficulty (1-5)": 3,
             "Actual Difficulty (1-5)": 3,
             "Reading Time (mins)": 20.0,
@@ -76,8 +79,15 @@
             "Reading Speed": 352.5,
             "Comprehension (1-5)": 3,
             "Photos": [
+                "https://i.imgur.com/lJJyuf8.png",
+                "https://i.imgur.com/QbFx7ZC.png",
+                "https://i.imgur.com/TnNjiW1.png",
+                "https://i.imgur.com/TopcAMC.png",
+                "https://i.imgur.com/bhIPH0g.png"
             ],
-            "_week": 3
+            "_week": 3,
+            "average": "https://i.imgur.com/jq4jOBr.png"
+
         },
         {
             "Reading": "Communicative Biocapitalism - Olivia Banner",
@@ -88,8 +98,14 @@
             "Reading Speed": 359.1,
             "Comprehension (1-5)": 2,
             "Photos": [
+                "https://i.imgur.com/d4G7EPb.png",
+                "https://i.imgur.com/Iwuc8Kq.png",
+                "https://i.imgur.com/KeI7CKk.png",
+                "https://i.imgur.com/dUDCTVf.png",
+                "https://i.imgur.com/T1Kxr0y.png"
             ],
-            "_week": 3
+            "_week": 3,
+            "average": "https://i.imgur.com/MLvRSuE.png"
         },
         {
             "Reading": "How Our Days Became Numbered (Chapters 1, 5, & 6) - Bouk",
@@ -100,8 +116,14 @@
             "Reading Speed": 290.5,
             "Comprehension (1-5)": 4,
             "Photos": [
+                "https://i.imgur.com/qwlRrO4.png",
+                "https://i.imgur.com/QCRV5ds.png",
+                "https://i.imgur.com/RJXZOXy.png",
+                "https://i.imgur.com/PLh51id.png",
+                "https://i.imgur.com/HG6YOso.png"
             ],
-            "_week": 4
+            "_week": 4,
+            "average": "https://i.imgur.com/YoXHkji.png"
         },
         {
             "Reading": "Branding Blackness (Chapter 3) - Simone Brown",
@@ -111,9 +133,15 @@
             "Word Count": 15610,
             "Reading Speed": 169.7,
             "Comprehension (1-5)": 4,
-            "Photos": [                
+            "Photos": [ 
+                "https://i.imgur.com/Y5nAxbA.png",
+                "https://i.imgur.com/Vf8KJ2F.png",
+                "https://i.imgur.com/Qq6zhzn.png",
+                "https://i.imgur.com/ZLKt4vY.png",
+                "https://i.imgur.com/GjYg9Bm.png"
             ],
-            "_week": 4
+            "_week": 4,
+            "average": "https://i.imgur.com/D1i6WZD.png"
         },
         {
             "Reading": "The datafication of everything': toward a sociology of sport and big data. - Brad Millington",
@@ -124,8 +152,14 @@
             "Reading Speed": 303.1,
             "Comprehension (1-5)": 4,
             "Photos": [
+                "https://i.imgur.com/D2yk0KM.png",
+                "https://i.imgur.com/8DlNUo6.png",
+                "https://i.imgur.com/u221EHa.png",
+                "https://i.imgur.com/WLWp3fm.png",
+                "https://i.imgur.com/6P7T4bU.png"
             ],
-            "_week": 4
+            "_week": 4,
+            "average": "https://i.imgur.com/7Zp2idU.png"
           },
           {
             "Reading": "Numbered Lives Chapter 2: Counting the Death - Jacqueline Wernimont",
@@ -136,8 +170,14 @@
             "Reading Speed": 262.5,
             "Comprehension (1-5)": 4,
             "Photos": [
+                "https://i.imgur.com/MnD7RGl.png",
+                "https://i.imgur.com/kjaTjn2.png",
+                "https://i.imgur.com/3lpfgKU.png",
+                "https://i.imgur.com/BidGUwz.png",
+                "https://i.imgur.com/XIXWqKz.png"
             ],
-            "_week": 6
+            "_week": 6,
+            "average": "https://i.imgur.com/Ji9WnhN.png"
           },
           {
             "Reading": "Bills of Mortality: tracking disease in early modern London",
@@ -148,8 +188,14 @@
             "Reading Speed": 350.4,
             "Comprehension (1-5)": 5,
             "Photos": [
+                "https://i.imgur.com/MCyG8Oq.png",
+                "https://i.imgur.com/pkMv8dP.png",
+                "https://i.imgur.com/5bVAYPa.png",
+                "https://i.imgur.com/kQk3sf0.png",
+                "https://i.imgur.com/BsekzDX.png"
             ],
-            "_week": 6
+            "_week": 6,
+            "average": "https://i.imgur.com/DQ5IORW.png"
           },
           {
             "Reading": "Numbered Lives Chapter 5: From Surveying Land to Surveilling Man - Jacqueline Wernimont",
@@ -160,8 +206,15 @@
             "Reading Speed": 317.5,
             "Comprehension (1-5)": 3,
             "Photos": [
+                "https://i.imgur.com/K7o4VW9.png",
+                "https://i.imgur.com/xfakRtq.png",
+                "https://i.imgur.com/8aZu5GR.png",
+                "https://i.imgur.com/lh7aac3.png",
+                "https://i.imgur.com/Hd0GQgr.png"
+
             ],
-            "_week": 6
+            "_week": 6,
+            "average": "https://i.imgur.com/pHTUMbE.png"
           },
           {
             "Reading": "Witch Hunts and Census Conflicts - Molly Farrel",
@@ -172,8 +225,14 @@
             "Reading Speed": 272.1,
             "Comprehension (1-5)": 3,
             "Photos": [
+                "https://i.imgur.com/DXkRph6.png",
+                "https://i.imgur.com/FmP7j8c.png",
+                "https://i.imgur.com/40JrqK2.png",
+                "https://i.imgur.com/Wif9nys.png",
+                "https://i.imgur.com/sY0Erub.png"
             ],
-            "_week": 7
+            "_week": 7,
+            "average": "https://i.imgur.com/CRf76SR.png"
           },
           {
             "Reading": "Self-Improvement Insights from the Journals of Benjamin Franklin - Jawwad Siddiqui",
@@ -184,8 +243,14 @@
             "Reading Speed": 321,
             "Comprehension (1-5)": 5,
             "Photos": [
+                "https://i.imgur.com/WTSxdTQ.png",
+                "https://i.imgur.com/WlWxeWw.png",
+                "https://i.imgur.com/v5xwTp6.png",
+                "https://i.imgur.com/zNT1nM8.png",
+                "https://i.imgur.com/mRRMcSv.png"
             ],
-            "_week": 7
+            "_week": 7,
+            "average": "https://i.imgur.com/cyidm7o.png"
           },
           {
             "Reading": "Monitoring the Self - Harro Mass",
@@ -196,8 +261,14 @@
             "Reading Speed": 299.7,
             "Comprehension (1-5)": 3.5,
             "Photos": [
+                "https://i.imgur.com/WTSxdTQ.png",
+                "https://i.imgur.com/WlWxeWw.png",
+                "https://i.imgur.com/v5xwTp6.png",
+                "https://i.imgur.com/zNT1nM8.png",
+                "https://i.imgur.com/mRRMcSv.png"
             ],
-            "_week": 7
+            "_week": 7,
+            "average": "https://i.imgur.com/cyidm7o.png"
           },
           {
             "Reading": "Gregory And Bowker",
@@ -208,8 +279,14 @@
             "Reading Speed": 310.6,
             "Comprehension (1-5)": 2,
             "Photos": [
+                "https://i.imgur.com/u1qgDVL.png",
+                "https://i.imgur.com/q9bPnSQ.png",
+                "https://i.imgur.com/EpL8Lxo.png",
+                "https://i.imgur.com/o0OaKk7.png",
+                "https://i.imgur.com/ZVstsmu.png"
             ],
-            "_week": 8
+            "_week": 8,
+            "average": "https://i.imgur.com/Ej3GeXn.png"
           },
           {
             "Reading": "Our Data Bodies: Reclaiming our Data - ODB",
@@ -220,8 +297,14 @@
             "Reading Speed": 380.1,
             "Comprehension (1-5)": 4.5,
             "Photos": [
+                "https://i.imgur.com/rFPd7UR.png",
+                "https://i.imgur.com/y6wq46s.png",
+                "https://i.imgur.com/vF1URhw.png",
+                "https://i.imgur.com/bIaZQFv.png",
+                "https://i.imgur.com/fv6ONGc.png"
             ],
-            "_week": 8
+            "_week": 8,
+            "average": "https://i.imgur.com/FKrDttr.png"
           },
           {
             "Reading": "_carbolytics - Joanna Moll",
@@ -232,8 +315,10 @@
             "Reading Speed": 28.7,
             "Comprehension (1-5)": 5,
             "Photos": [
+                "https://i.imgur.com/lz8IyHU.png"
             ],
-            "_week": 8
+            "_week": 8,
+            "average": "https://i.imgur.com/lz8IyHU.png"
           },
           {
             "Reading": "Who Owns Our Data - Aziz Huq",
@@ -244,8 +329,14 @@
             "Reading Speed": 393,
             "Comprehension (1-5)": 4.5,
             "Photos": [
+                "https://i.imgur.com/v4KEg7q.png",
+                "https://i.imgur.com/obpDIZ1.png",
+                "https://i.imgur.com/IYFWrRa.png",
+                "https://i.imgur.com/6JjKndq.png",
+                "https://i.imgur.com/5zYYDQC.png"
             ],
-            "_week": 8
+            "_week": 8,
+            "average": "https://i.imgur.com/Clqn48d.png"
           }
     ]
   }
