@@ -1,21 +1,251 @@
 {
     "data": [
-      {
-        "Reading": "Gregory And Bowker",
-        "Predicted Difficulty (1-5)": "4",
-        "Actual Difficulty (1-5)": "4",
-        "Reading Time (mins)": "20.5",
-        "Word Count": "6368",
-        "Reading Speed": "310.6",
-        "Comprehension (1-5)": "2",
-        "Photos": [
-            "https://i.imgur.com/a4lo5wd.jpg",
-            "https://i.imgur.com/XVitB7m.jpg",
-            "https://i.imgur.com/bKPWE5b.png",
-            "https://i.imgur.com/TOILCuf.png",
-            "https://i.imgur.com/ntnVmwL.png",
-            "https://i.imgur.com/o6FiW5d.jpg"
-        ]
-      }
+        {
+            "Reading": "You might abandon your new years resolutionsm but the internet never will - Shoshana Wodinsky",
+            "Predicted Difficulty (1-5)": 1,
+            "Actual Difficulty (1-5)": 1,
+            "Reading Time (mins)": 6.5,
+            "Word Count": 2860,
+            "Reading Speed": 450,
+            "Comprehension (1-5)": 5,
+            "Photos": [
+                "https://i.imgur.com/HYNdYWN.png",
+                "https://i.imgur.com/wRqAvyq.png"
+            ],
+            "_week": 1,
+            "average": "https://i.imgur.com/Ue480YR.png"
+        },
+        {
+            "Reading": "Personal Data in the Age of Lively Data - Deborah Lupton",
+            "Predicted Difficulty (1-5)": 2,
+            "Actual Difficulty (1-5)": 2,
+            "Reading Time (mins)": 15.25,
+            "Word Count": 6190,
+            "Reading Speed": 405.9,
+            "Comprehension (1-5)": 4,
+            "Photos": [
+                "https://i.imgur.com/jLWVoxf.png",
+                "https://i.imgur.com/K89QUDO.png",
+                "https://i.imgur.com/uR24aJk.png",
+                "https://i.imgur.com/u0gqbTp.png",
+                "https://i.imgur.com/sYNr9A6.png"                
+            ],
+            "_week": 1
+        },
+        {
+            "Reading": "Datafication, dataism, and dataveillance - Jose van Dijck",
+            "Predicted Difficulty (1-5)": 2,
+            "Actual Difficulty (1-5)": 3,
+            "Reading Time (mins)": 19.0,
+            "Word Count": 6616,
+            "Reading Speed": 348.2,
+            "Comprehension (1-5)": 3,
+            "Photos": [
+                "https://i.imgur.com/UVUmIlp.png",
+                "https://i.imgur.com/kz6t9h4.png",
+                "https://i.imgur.com/6NC2idM.png",
+                "https://i.imgur.com/xUssOiK.png",
+                "https://i.imgur.com/Sj6ufsg.png"
+            ],
+            "_week": 2
+        },
+        {
+            "Reading": "Our Data, Our Selves (Chapter 9 & 13) - Adam Tanner",
+            "Predicted Difficulty (1-5)": 3,
+            "Actual Difficulty (1-5)": 3.5,
+            "Reading Time (mins)": 40,
+            "Word Count": 10854,
+            "Reading Speed": 271.35,
+            "Comprehension (1-5)": 3,
+            "Photos": [
+                "https://i.imgur.com/Ewib52F.png",
+                "https://i.imgur.com/4rphj5q.png",
+                "https://i.imgur.com/kZqpvVF.png",
+                "https://i.imgur.com/Xiu6zr3.png",
+                "https://i.imgur.com/ETkZDb4.png"
+
+            ],
+            "_week": 2
+        },
+        {
+            "Reading": "Our Metrics, Ourselves",
+            "Predicted Difficulty (1-5)": 3,
+            "Actual Difficulty (1-5)": 3,
+            "Reading Time (mins)": 20.0,
+            "Word Count": 7050,
+            "Reading Speed": 352.5,
+            "Comprehension (1-5)": 3,
+            "Photos": [
+            ],
+            "_week": 3
+        },
+        {
+            "Reading": "Communicative Biocapitalism - Olivia Banner",
+            "Predicted Difficulty (1-5)": 4,
+            "Actual Difficulty (1-5)": 4,
+            "Reading Time (mins)": 90,
+            "Word Count": 32319,
+            "Reading Speed": 359.1,
+            "Comprehension (1-5)": 2,
+            "Photos": [
+            ],
+            "_week": 3
+        },
+        {
+            "Reading": "How Our Days Became Numbered (Chapters 1, 5, & 6) - Bouk",
+            "Predicted Difficulty (1-5)": 4,
+            "Actual Difficulty (1-5)": 4,
+            "Reading Time (mins)": 151,
+            "Word Count": 43865,
+            "Reading Speed": 290.5,
+            "Comprehension (1-5)": 4,
+            "Photos": [
+            ],
+            "_week": 4
+        },
+        {
+            "Reading": "Branding Blackness (Chapter 3) - Simone Brown",
+            "Predicted Difficulty (1-5)": 4,
+            "Actual Difficulty (1-5)": 5,
+            "Reading Time (mins)": 92,
+            "Word Count": 15610,
+            "Reading Speed": 169.7,
+            "Comprehension (1-5)": 4,
+            "Photos": [                
+            ],
+            "_week": 4
+        },
+        {
+            "Reading": "The datafication of everything': toward a sociology of sport and big data. - Brad Millington",
+            "Predicted Difficulty (1-5)": 3,
+            "Actual Difficulty (1-5)": 3,
+            "Reading Time (mins)": 31.5,
+            "Word Count": 9547,
+            "Reading Speed": 303.1,
+            "Comprehension (1-5)": 4,
+            "Photos": [
+            ],
+            "_week": 4
+          },
+          {
+            "Reading": "Numbered Lives Chapter 2: Counting the Death - Jacqueline Wernimont",
+            "Predicted Difficulty (1-5)": 3,
+            "Actual Difficulty (1-5)": 3,
+            "Reading Time (mins)": 46,
+            "Word Count": 12077,
+            "Reading Speed": 262.5,
+            "Comprehension (1-5)": 4,
+            "Photos": [
+            ],
+            "_week": 6
+          },
+          {
+            "Reading": "Bills of Mortality: tracking disease in early modern London",
+            "Predicted Difficulty (1-5)": 2,
+            "Actual Difficulty (1-5)": 1,
+            "Reading Time (mins)": 5,
+            "Word Count": 1752,
+            "Reading Speed": 350.4,
+            "Comprehension (1-5)": 5,
+            "Photos": [
+            ],
+            "_week": 6
+          },
+          {
+            "Reading": "Numbered Lives Chapter 5: From Surveying Land to Surveilling Man - Jacqueline Wernimont",
+            "Predicted Difficulty (1-5)": 4,
+            "Actual Difficulty (1-5)": 3.5,
+            "Reading Time (mins)": 50.01,
+            "Word Count": 15880,
+            "Reading Speed": 317.5,
+            "Comprehension (1-5)": 3,
+            "Photos": [
+            ],
+            "_week": 6
+          },
+          {
+            "Reading": "Witch Hunts and Census Conflicts - Molly Farrel",
+            "Predicted Difficulty (1-5)": 3,
+            "Actual Difficulty (1-5)": 2,
+            "Reading Time (mins)": 31,
+            "Word Count": 8435,
+            "Reading Speed": 272.1,
+            "Comprehension (1-5)": 3,
+            "Photos": [
+            ],
+            "_week": 7
+          },
+          {
+            "Reading": "Self-Improvement Insights from the Journals of Benjamin Franklin - Jawwad Siddiqui",
+            "Predicted Difficulty (1-5)": 1,
+            "Actual Difficulty (1-5)": 1,
+            "Reading Time (mins)": 5,
+            "Word Count": 1605,
+            "Reading Speed": 321,
+            "Comprehension (1-5)": 5,
+            "Photos": [
+            ],
+            "_week": 7
+          },
+          {
+            "Reading": "Monitoring the Self - Harro Mass",
+            "Predicted Difficulty (1-5)": 4,
+            "Actual Difficulty (1-5)": 3,
+            "Reading Time (mins)": 33.5,
+            "Word Count": 10042,
+            "Reading Speed": 299.7,
+            "Comprehension (1-5)": 3.5,
+            "Photos": [
+            ],
+            "_week": 7
+          },
+          {
+            "Reading": "Gregory And Bowker",
+            "Predicted Difficulty (1-5)": 4,
+            "Actual Difficulty (1-5)": 4,
+            "Reading Time (mins)": 20.5,
+            "Word Count": 6368,
+            "Reading Speed": 310.6,
+            "Comprehension (1-5)": 2,
+            "Photos": [
+            ],
+            "_week": 8
+          },
+          {
+            "Reading": "Our Data Bodies: Reclaiming our Data - ODB",
+            "Predicted Difficulty (1-5)": 1,
+            "Actual Difficulty (1-5)": 2,
+            "Reading Time (mins)": 37,
+            "Word Count": 14063,
+            "Reading Speed": 380.1,
+            "Comprehension (1-5)": 4.5,
+            "Photos": [
+            ],
+            "_week": 8
+          },
+          {
+            "Reading": "_carbolytics - Joanna Moll",
+            "Predicted Difficulty (1-5)": 1,
+            "Actual Difficulty (1-5)": 1,
+            "Reading Time (mins)": 25,
+            "Word Count": 717,
+            "Reading Speed": 28.7,
+            "Comprehension (1-5)": 5,
+            "Photos": [
+            ],
+            "_week": 8
+          },
+          {
+            "Reading": "Who Owns Our Data - Aziz Huq",
+            "Predicted Difficulty (1-5)": 3,
+            "Actual Difficulty (1-5)": 1.5,
+            "Reading Time (mins)": 10,
+            "Word Count": 3930,
+            "Reading Speed": 393,
+            "Comprehension (1-5)": 4.5,
+            "Photos": [
+            ],
+            "_week": 8
+          }
     ]
   }
