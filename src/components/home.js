@@ -6,9 +6,17 @@ class HomePage extends Component {
       return (
         <div className="paragraph">
           <p>
-            Welcome to readForSpeed. This is a small webapp I programmed to showcase how my facial expressions change based on the
-            readings I am doing. In addition, I track, with my own made up metrics, my reading speed and comprehensibility. Please
-            click enter below to check it out!
+            Welcome to readForSpeed. For my self-quantification project in my Data and Bodies class, I decided to track reading speed, comprehension,
+            and time it takes to read. This is all showcased in the app when you click enter. After sometime, I decided to add in facial expressions
+            to the mix, which is also showcased in the app. To use the app, simply click enter, and view the data displayed for each week. For each
+            week, there is the pre and post-difficulty measurements, comprehension, word count, reading speed, and the averages of the photos taken
+            during the reading. If you would like to look at the actual photos taken during the reading, please click on the tile and it should open
+            a component for you to view. If you would like more information about the project, please read the artist statement linked
+            below! Please enjoy!
+            <br />
+            <a className="artist-statement" href="https://drive.google.com/file/d/1DyTlbkf9--MLLhAFVGKerwsbTGNvm0Z8/view?usp=sharing" target="_blank" rel="noreferrer">
+              View Artist Statement
+            </a>
           </p>
         </div>
       );

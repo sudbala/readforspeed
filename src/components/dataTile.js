@@ -30,7 +30,7 @@ class DataTile extends Component {
       <div className={`dataTile week${this.props._week}`} onClick={this.toggleActive} role="button" tabIndex={0}>
         <div className="dataTile-numbers">
           <div className="title">
-            <h3>{this.props.title}</h3>
+            <h3>{this.props.title} (Week {this.props._week})</h3>
           </div>
           <div className="data-contents">
             <div className="data-content">
@@ -63,7 +63,7 @@ class DataTile extends Component {
             </div>
           </div>
         </div>
-        <div className="dataTile-photos">
+        <div className="dataTile-photos slide-in">
           {this.state.isActive && <div className="photo-container"><h6>Photos</h6><div className="photos">{this.renderPhotos()}</div></div>}
         </div>
       </div>
